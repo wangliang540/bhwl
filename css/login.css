@@ -37,7 +37,7 @@
 .fixed {
   position: fixed;
   right: 50px;
-  top: 600px;
+  bottom: 300px;
   width: 50px;
   height: 50px;
   background-color: #fff;
@@ -50,11 +50,179 @@
   height: 100%;
   z-index: 99;
 }
-.chanpin {
+.nengli,
+.chanpin,
+.qiye,
+.xinwen,
+.kehu {
   text-align: center;
   margin-top: 50px;
+  margin-bottom: 20px;
 }
-.chanpin p {
+.nengli p,
+.chanpin p,
+.qiye p,
+.xinwen p,
+.kehu p {
   font-size: 12px;
   color: #999999;
+}
+.nengli-title {
+  overflow: hidden;
+}
+.nengli-title ul {
+  margin-left: 200px;
+}
+.nengli-title ul li {
+  float: left;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  padding-top: 70px;
+}
+.nengli-title ul li h4 {
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+.nengli-title ul li p {
+  line-height: 27px;
+}
+.chanpin-title {
+  text-align: center;
+}
+.chanpin-title li {
+  float: left;
+  width: 20%;
+  height: 240px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+  background-color: #2a3152;
+}
+.chanpin-title li p {
+  font-size: 26px;
+  color: #fff;
+}
+.qiye-title {
+  text-align: center;
+}
+.qiye-title p {
+  font-size: 14px;
+  color: #666666;
+}
+.qiye-title a {
+  display: block;
+  width: 150px;
+  height: 55px;
+  border: 1px solid #bad2e9;
+  color: #0058ad;
+  text-align: center;
+  line-height: 55px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin-top: 50px;
+}
+.qiye-title ul {
+  overflow: hidden;
+  margin-top: 150px;
+  margin-left: 200px;
+}
+.qiye-title ul li {
+  float: left;
+  margin-left: 50px;
+}
+.xinwen {
+  background-color: #f8f8f9;
+  padding-top: 30px;
+  overflow: hidden;
+}
+.xinwen ul {
+  overflow: hidden;
+  margin-left: 280px;
+  margin-top: 30px;
+}
+.xinwen ul li {
+  width: 300px;
+  height: 350px;
+  line-height: 40px;
+  background-color: #fff;
+  float: left;
+  margin-left: 40px;
+}
+.xinwen ul li img {
+  width: 100%;
+  height: 50%;
+}
+.xinwen ul li p {
+  font-size: 15px;
+  color: #222;
+}
+.xinwen ul li .footer {
+  font-size: 20px;
+}
+.xinwen ul .first {
+  margin-left: 0;
+}
+.xinwen .btn {
+  overflow: hidden;
+  margin-top: 50px;
+  margin-left: 650px;
+  margin-bottom: 50px;
+}
+.xinwen .btn img {
+  float: left;
+  margin: 0 10px;
+  width: 50px;
+  height: 50px;
+}
+.kehu-img {
+  overflow: hidden;
+}
+.kehu-img ul {
+  margin: 0 200px;
+}
+.kehu-img ul li {
+  width: 19%;
+  float: left;
+}
+.kehu-img ul li img {
+  width: 100%;
+  border: 1px solid #ccc;
+  vertical-align: middle;
+}
+.kehu-img ul li img:hover {
+  transform: scale(1.1, 1.1);
+}
+.bottom {
+  width: 100%;
+  margin-top: 50px;
+  background-color: #30343e;
+  padding-top: 60px;
+  padding-left: 100px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-bottom: 1px solid #414141;
+}
+.bottom dl {
+  float: left;
+  margin-left: 100px;
+}
+.bottom dl dd {
+  color: #fff;
+  margin-bottom: 30px;
+}
+.bottom dl dt {
+  color: #777777;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+.bottom-title {
+  height: 100px;
+  line-height: 100px;
+  background-color: #30343e;
+  text-align: center;
+  color: #a5b1b1;
+  font-size: 14px;
 }
